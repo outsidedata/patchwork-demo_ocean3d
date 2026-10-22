@@ -1,0 +1,45 @@
+{
+  "player": {
+    "speed": 12,
+    "boost": 6,
+    "climb": 8,
+    "clear": 1.5,
+    "ceiling": 3000,
+    "pace": { "min": 0.1, "max": 10, "step": 0.0015 },
+    "camera": { "minPitch": -1.5, "maxPitch": 1.5 },
+    "sens": 0.0025,
+    "keys": {
+      "stick": ["a", "d", "w", "s"],
+      "up": [" "],
+      "down": ["c"],
+      "fast": ["Shift"],
+      "drag": "Mouse2"
+    }
+  },
+  "sun": {
+    "intensity": 2.4,
+    "sky": 0.8
+  },
+  "buoy": {
+    "sizes": {
+      "small": { "span": 0.6, "radius": 0.3, "height": 1.2 },
+      "mid": { "span": 1.5, "radius": 0.7, "height": 2.6 },
+      "large": { "span": 4, "radius": 1.8, "height": 5.5 }
+    },
+    "colour": "#d8432e",
+    "band": "#f2efe6",
+    "draft": 0.4,
+    "segments": 24
+  },
+  "boat": {
+    "span": 12,
+    "length": 12,
+    "beam": 4,
+    "height": 1.6,
+    "draft": 0.6,
+    "yaw": 0.6,
+    "hull": "#f2efe6",
+    "deck": "#9a7a52",
+    "cabin": "#3d4f63"
+  }
+}
